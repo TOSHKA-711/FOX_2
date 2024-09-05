@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- style sheet -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- cairo font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <title>F0X</title>
+  </head>
+  <body>
+    <!-- navbar  -->
+
+    <div class="navBar transition flex-parent">
+      <div class="container">
+        <div class="logo transition">
+          <img src="./logo.png" alt="logo" />
+        </div>
+        <div class="sections">
+          <a class="section transition" id="home" href="./index.html"
+            >الرئيسية</a
+          >
+          <a class="section transition" id="#" href="./about.html"> من نحن</a>
+          <a class="section transition" id="#" href="./branches.html">الفروع</a>
+          <!-- <a class="section transition" id="#">الامتياز التجاري</a> -->
+          <a class="section transition" id="#" href="./contact.html"
+            >تواصل معنا</a
+          >
+        </div>
+        <div class="toggle-icon">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </div>
+      </div>
+    </div>
+    <div class="toggle-layer">
+      <a class="section transition" id="home" href="./index.html">الرئيسية</a>
+      <a class="section transition" id="#" href="./about.html"> من نحن</a>
+      <a class="section transition" id="#" href="./branches.html">الفروع</a>
+      <!-- <a class="section transition" id="#">الامتياز التجاري</a> -->
+      <a class="section transition" id="#" href="./contact.html">تواصل معنا</a>
+      <div class="x-icon">
+        <i class="fa-solid fa-x"></i>
+      </div>
+    </div>
+
+    <!-- intro home  -->
+
+    <div class="intro-home flex-parent">
+      <video
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="auto"
+        controlslist="nodownload"
+        disablepictureinpicture
+        alt
+        src="./vid1.mp4"
+      ></video>
+      <div class="intro-layer"></div>
+      <div class="intro-text flex-parent">
+        <h1 class="">كل ما تحتاجه سيارتك</h1>
+        <h2>في مكان واحد</h2>
+      </div>
+    </div>
+
+    <!-- about section  -->
+
+    <div class="about-us flex-parent">
+      <div class="container">
+        <div class="about-text">
+          <p class="welcome">مرحبا بكم في فوكس</p>
+          <h2>من نحن ؟</h2>
+          <p class="content">
+            فى فوكس تأتى الجودة فى المقام الأول و نلتزم دائماً بتقديم أعلى
+            المعايير فى خدمات العناية بسيارتك. بفضل خبرتنا و الفنيين المدربين
+            على أعلى مستوى و شركائنا العالمين أصبحنا من رواد الصناعة فى سوق
+            السيارات الكويتى. نفتخر بقدرتنا و احترافيتنا التى تجعلنا دائما
+            قادرين على تلبية احتياجات عملائنا و اكتساب ثقتهم.
+          </p>
+          <a href="./about.html" class="button">المزيد</a>
+        </div>
+        <div class="about-img">
+          <img
+            src="./White_Sport_Car_PNG_Clip_Art-2648-removebg-preview.png"
+            alt="car"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- booking -->
+
+    <div class="book flex-parent">
+      <div class="container">
+        <div class="text .book-text">
+          <h1>احجز موعدك الآن</h1>
+          <p>احمي سيارتك بخبرة اكثر من 10 سنوات</p>
+        </div>
+        <div class="cards">
+          <div class="card transition">
+            <div class="face1">
+              <img src="./services-icon1 (2).png" alt="service" />
+            </div>
+            <div class="face2 transition">
+              <p class="title">نانو سيراميك حماية كاملة</p>
+              <p class="content">
+                احمي بودي سيارتك بطبقات من النانو سيراميك بالاضافة الى حماية
+                داخلية للتابلون و الفرش و الاجزاء الداخلية للسيارة بتكنولوجيا
+                النانو سيراميك
+              </p>
+            </div>
+          </div>
+          <div class="card transition">
+            <div class="face1">
+              <img src="./services-icon2-removebg-preview.png" alt="service" />
+            </div>
+            <div class="face2 transition">
+              <div class="face2 transition">
+                <p class="title">حماية طلاء السيارة</p>
+                <p class="content">
+                  فى ستايلي لا نتنازل عن الجودة ونتسم دائما باختيار خط انتاجنا
+                  بدقة و عناية. هل ترغب مثل بقية الناس أن تحافظ على طلاء سيارتك
+                  كما اشتريتها أول مرة؟
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card transition">
+            <div class="face1">
+              <img src="./services-icon3-removebg-preview.png" alt="service" />
+            </div>
+            <div class="face2 transition">
+              <p class="title">أفلام العازل الحراري</p>
+              <p class="content">
+                نجوب العالم دائما للبحث عن خامات افلام العازل الحراري عالية
+                الجودة بهدف إيجاد العوازل الحرارية المثالية للكويت نفخر بتقديم
+                نوعين من الخامات لتظليل زجاج السيارة
+              </p>
+            </div>
+          </div>
+          <div class="card transition">
+            <div class="face1">
+              <img src="./services-icon4-removebg-preview.png" alt="service" />
+            </div>
+            <div class="face2 transition">
+              <p class="title">عناية متقدمة بالسيارة</p>
+              <p class="content">
+                خبراتنا فى صناعة العناية بالسيارات تتعدى 10 سنوات فى الكويت حيث
+                نعرف جيداً ما تفعله ظروف الطقس القاسية بسيارتك و نعرف كيفية
+                التعامل معها.
+              </p>
+            </div>
+          </div>
+          <div class="card transition">
+            <div class="face1">
+              <img src="./services-icon5-removebg-preview.png" alt="service" />
+            </div>
+            <div class="face2 transition">
+              <p class="title">الكساء الداخلى للسيارة</p>
+              <p class="content">
+                نمتلك خامات من الجلد و القماش ذات جودة عالية من مختلف دول العالم
+                بما فيهم الولايات المتحدة الأمريكية و ألمانيا .
+              </p>
+            </div>
+          </div>
+          <div class="card transition latest">
+            <div class="face1">
+              <img src="./logo.png" alt="service" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- booking form  -->
+
+    <div class="booking-form flex-parent">
+      <div class="container">
+        <form action="">
+          <div class="bar1 bar">
+            <div class="label">
+              <i class="fa-solid fa-user"></i>
+              <p>الاسم</p>
+              <span>*</span>
+            </div>
+            <input type="text" class="f" placeholder="الاول" />
+            <input type="text" class="s" placeholder="الثاني" />
+          </div>
+          <div class="bar2 bar">
+            <div class="label">
+              <i class="fa-solid fa-phone"></i>
+              <p>رقم الجوال</p>
+              <span>*</span>
+            </div>
+            <input type="text" class="f" placeholder="رقم الهاتف" />
+            <div class="contact-ways">
+              <p class="label">كيف تفضل التواصل ؟</p>
+              <div class="child">
+                <input type="checkbox" />
+                <p>هاتفيا</p>
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="child">
+                <input type="checkbox" />
+                <p>واتساب</p>
+                <i class="fa-brands fa-whatsapp"></i>
+              </div>
+            </div>
+          </div>
+          <div class="bar3 bar">
+            <div class="label">
+              <i class="fa-solid fa-wand-magic-sparkles"></i>
+              <p>الخدمات المطلوبه</p>
+            </div>
+
+            <div class="services">
+              <div class="child">
+                <input type="checkbox" />
+                <p>باقه الحماية</p>
+              </div>
+              <div class="child">
+                <input type="checkbox" />
+                <p>عازل حراري</p>
+              </div>
+              <div class="child">
+                <input type="checkbox" />
+                <p>اقلام حماية</p>
+              </div>
+              <div class="child">
+                <input type="checkbox" />
+                <p>حمايه نانو</p>
+              </div>
+              <div class="child">
+                <input type="checkbox" />
+                <p>فرش سيارة</p>
+              </div>
+              <div class="child">
+                <input type="checkbox" />
+                <p>عناية متقدمة</p>
+              </div>
+            </div>
+          </div>
+          <div class="bar4 bar">
+            <div class="label">
+              <i class="fa-solid fa-truck-fast"></i>
+              <p>الفرع</p>
+            </div>
+            <select name="الفرع" id="">
+              <option value="">الرى / خلف شركة الرمال الذهبية القديم</option>
+              <option value="">الري / خلف شركة ايس هاردوير</option>
+            </select>
+            <input type="text" class="s" placeholder="نوع السيارة" />
+          </div>
+          <button class="button">ارسال</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- advertise1 -->
+
+    <div class="advertise1 flex-parent">
+      <div class="container">
+        <div class="backimg">
+          <img src="./PAINT-PROTECTION.jpg" alt="" />
+        </div>
+        <div class="text">
+          <h2>حماية طلاء السيارة</h2>
+        </div>
+        <div class="car-img advertise-img">
+          <img src="./Range-Rover-Car-PNG-File.png" alt="" />
+          <div class="adver1-content">
+            <p>
+              فى فوكس لا نتنازل عن الجودة ونتسم دائما باختيار خط انتاجنا بدقة و
+              عناية. هل ترغب مثل بقية الناس أن تحافظ على طلاء سيارتك كما
+              اشتريتها أول مرة؟ إذا فخدمة حماية مقدمة السيارة هو الاختيار
+              الأمثل.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+<!-- gsap text  -->
+
+<div class="gsap-text">
+  <p>FOX PROTECTION</p>
+</div>
+
+<!-- gsap text  -->
+
+
+    <!-- adertise2 section  -->
+
+    <div class="about-us flex-parent advertise2">
+      <div class="container">
+        <div class="about-text">
+          <p class="welcome">لمعان واناقة</p>
+          <h2>عناية متقدمة بالسيارة</h2>
+          <p class="content advertise-text2">
+            عناية فائقة بسيارتك بخبرة أكثر من 10 سنوات فى الكويت 
+             خبراتنا فى صناعة العناية بالسيارات تتعدى 10 سنوات فى الكويت
+              حيث نعرف جيداً ما تفعله ظروف الطقس القاسية بسيارتك
+            و نعرف كيفية التعامل معها.
+          </p>
+          <!-- <a href="" class="button">المزيد</a> -->
+        </div>
+        <div class="about-img advertise-img2">
+          <img src="./ford.png" alt="car" />
+        </div>
+      </div>
+    </div>
+
+    <!-- copy right -->
+    <div class="copy-right flex-parent">
+      <div class="container">
+        <div class="copy-right-text">
+          حقوق النشر ©٢٠٢٤ مجموعة FOX - كل الحقوق محفوظة
+        </div>
+        <div class="icons">
+          <a target="_blank" href="https://www.instagram.com/foxprotection/">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a target="_blank" href="https://www.tiktok.com/@foxprotectionkw">
+            <i class="fa-brands fa-tiktok"></i>
+          </a>
+          <a target="_blank" href="https://www.snapchat.com/add/foxprotection">
+            <i class="fa-brands fa-snapchat"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- start gsap  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- end gsap  -->
+
+    <script src="./main.js"></script>
+    <script src="./handleNavBar.js"></script>
+  </body>
+</html>

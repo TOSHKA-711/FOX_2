@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- style sheet -->
+    <link rel="stylesheet" href="./about.css" />
+    <!-- cairo font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <!-- swiper js  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>F0X</title>
+  </head>
+  <body>
+    <!-- navbar  -->
+
+    <!-- navbar  -->
+
+    <div class="navBar transition flex-parent">
+      <div class="container">
+        <div class="logo transition">
+          <img src="./logo.png" alt="logo" />
+        </div>
+        <div class="sections">
+          <a class="section transition" id="home" href="./index.html"
+            >الرئيسية</a
+          >
+          <a class="section transition" id="#" href="./about.html"> من نحن</a>
+          <a class="section transition" id="#" href="./branches.html">الفروع</a>
+          <!-- <a class="section transition" id="#">الامتياز التجاري</a> -->
+          <a class="section transition" id="#" href="./contact.html"
+            >تواصل معنا</a
+          >
+        </div>
+        <div class="toggle-icon">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </div>
+      </div>
+    </div>
+    <div class="toggle-layer">
+      <a class="section transition" id="home" href="./index.html">الرئيسية</a>
+      <a class="section transition" id="#" href="./about.html"> من نحن</a>
+      <a class="section transition" id="#" href="./branches.html">الفروع</a>
+      <!-- <a class="section transition" id="#">الامتياز التجاري</a> -->
+      <a class="section transition" id="#" href="./contact.html">تواصل معنا</a>
+      <div class="x-icon">
+        <i class="fa-solid fa-x"></i>
+      </div>
+    </div>
+    <!-- --------------  intro carousel  --------------------  -->
+
+    <div class="slider">
+      <!-- fade css -->
+      <div class="myslide fade">
+        <div class="txt">
+          <h1>فريق كامل</h1>
+          <p>يضم مختلف الخبرات</p>
+        </div>
+        <img src="./about1.jpg" style="width: 100%; height: 100%" />
+      </div>
+
+      <div class="myslide fade">
+        <div class="txt">
+          <h1>منذ عام</h1>
+          <p>1990</p>
+        </div>
+        <img src="./about2.jpg" style="width: 100%; height: 100%" />
+      </div>
+
+      <div class="myslide fade">
+        <div class="txt">
+          <h1>كل مطلبات سيارتك</h1>
+          <p>في مكان واحد</p>
+        </div>
+        <img src="./about3.jpg" style="width: 100%; height: 100%" />
+      </div>
+
+      <div class="myslide fade">
+        <div class="txt">
+          <h1>شركاء</h1>
+          <p>على اعلى مستوى</p>
+        </div>
+        <img src="./about4.jpg" style="width: 100%; height: 100%" />
+      </div>
+
+      <!-- onclick js -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <div class="dotsbox" style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <!-- <span class="dot" onclick="currentSlide(5)"></span> -->
+      </div>
+      <!-- /onclick js -->
+    </div>
+
+    <!-- about section  -->
+
+    <div class="about-us flex-parent">
+      <div class="container">
+        <div class="about-text">
+          <p class="welcome">تراثنا يتحدث عنّا</p>
+          <h2>عن فوكس</h2>
+          <p class="content">
+            فى فوكس تأتى الجودة فى المقام الأول و نلتزم دائماً بتقديم أعلى
+            المعايير فى خدمات العناية بسيارتك. بفضل خبرتنا و المتخصصين المدربين
+            على أعلى مستوى و شركائنا العالمين أصبحنا من رواد الصناعة فى سوق
+            السيارات الكويتي. نفتخر بقدرتنا و احترافيتنا التى تجعلنا دائما
+            قادرين على تلبية احتياجات عملائنا و اكتساب ثقتهم. نؤمن في فوكس أن
+            الجودة هي المعيار الأول والأساسي لما نقدمه من خدمات متنوعة في عالم
+            العناية بالسيارت؛ لذا نلتزم بتقديم أعلى كفاءة بأفضل سعر. وبفضل
+            الخبرة الطويلة، الكوادر المهنية المتخصصة والشركاء العالميين أصبحنا
+            رواد الصناعة في سوق السيارات الكويتي.
+          </p>
+          <a href="./about.html" class="button">المزيد</a>
+        </div>
+        <div class="about-img">
+          <img src="./about5.jpg" alt="car" />
+        </div>
+      </div>
+    </div>
+
+    <!-- about cards -->
+
+    <div class="book flex-parent">
+      <div class="container">
+        <div class="text">
+          <h1>تطلعاتنا</h1>
+          <!-- <p>احمي سيارتك بخبرة اكثر من ٣٠ عام</p> -->
+        </div>
+        <div class="cards book-cards">
+          <div class="card transition latest">
+            <div class="face1">
+              <img src="./logo.png" alt="service" />
+            </div>
+            <div class="face2 transition">
+              <p class="title">أهدافنا</p>
+              <p class="content">
+                نسعى في FOX إلى تقديم أعلى معايير الجودة والكفاءة لعملائنا،
+                ونعدهم بأن يكونوا دائمًا فى مركز اهتماماتنا وعلى رأس أولوياتنا؛
+                وذلك عن طريق تقديم منتجات وخدمات من أشهر العلامات التجارية حول
+                العالم.
+              </p>
+            </div>
+          </div>
+          <div class="card transition latest">
+            <div class="face1">
+              <img src="./logo.png" alt="service" />
+            </div>
+            <div class="face2 transition">
+              <p class="title">رؤيتنا</p>
+              <p class="content">
+                10 سنوات من الخبرة جعلتنا في الصدارة. ورؤيتنا في FOX
+              أن نتمكن من تخطي كافة الحدود والتوقعات؛ من أجل تحقيق المزيد
+              وتقديم أفضل خدمة بأعلى جودة تليق بعملائنا و بالمكانة التي
+              نحتلها.
+            </p>
+            </div>
+          </div>
+          <div class="card transition latest">
+            <div class="face1">
+              <img src="./logo.png" alt="service" />
+            </div>
+            <div class="face2 transition">
+              <p class="title">مهمتنا</p>
+              <p class="content">
+                مهمتنا هي الحفاظ على الجودة المعهودة لكافة ما نقدمه من خدمات
+                ومنتجات تخص مجال العناية بالسيارات فى الكويت؛
+                وذلك من خلال تراثنا العريق فى تلك الصناعة منذ عام ١٩٨٦.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- info -->
+    <div class="info flex-parent">
+      <div class="layer"></div>
+      <div class="container">
+        <div class="child info-child">
+          <img src="./info1.png" alt="" />
+          <p class="title">الافضل في العناية بالسيارات</p>
+        </div>
+        <div class="child info-child">
+          <img src="./info2.png" alt="" />
+          <p class="title">3 مراكز في الكويت</p>
+        </div>
+        <div class="child info-child">
+          <img src="./info3.png" alt="" />
+          <p class="title">٢٥m سيارة محمية</p>
+        </div>
+        <div class="child info-child">
+          <img src="./info4.png" alt="" />
+          <p class="title">10 سنوات من الخبرة</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- services carousel  -->
+    <div class="services">
+      <h1 class="title">خدماتنا</h1>
+
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="card transition">
+              <div class="face1">
+                <img src="./services-icon1 (2).png" alt="service" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card transition">
+              <div class="face1">
+                <img
+                  src="./services-icon2-removebg-preview.png"
+                  alt="service"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card transition">
+              <div class="face1">
+                <img
+                  src="./services-icon3-removebg-preview.png"
+                  alt="service"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card transition">
+              <div class="face1">
+                <img
+                  src="./services-icon4-removebg-preview.png"
+                  alt="service"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card transition">
+              <div class="face1">
+                <img
+                  src="./services-icon5-removebg-preview.png"
+                  alt="service"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- If we need pagination -->
+        <!-- <div class="swiper-pagination"></div> -->
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev pag-btn"></div>
+        <div class="swiper-button-next pag-btn"></div>
+
+        <!-- If we need scrollbar -->
+        <!-- <div class="swiper-scrollbar"></div> -->
+      </div>
+    </div>
+
+   <!-- copy right -->
+   <div class="copy-right flex-parent">
+    <div class="container">
+      <div class="copy-right-text">
+        حقوق النشر ©٢٠٢٤ مجموعة FOX - كل الحقوق محفوظة
+      </div>
+      <div class="icons">
+        <a target="_blank" href="https://www.instagram.com/foxprotection/">
+          <i class="fa-brands fa-instagram"></i>
+      </a>
+        <a target="_blank" href="https://www.tiktok.com/@foxprotectionkw">
+          <i class="fa-brands fa-tiktok"></i>
+        </a>
+        <a target="_blank" href="https://www.snapchat.com/add/foxprotection">
+          <i class="fa-brands fa-snapchat"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- start gsap  -->
+  <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+  integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+  integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<!-- end gsap  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./about.js"></script>
+    <script src="./handleNavBar.js"></script>
+  </body>
+</html>
